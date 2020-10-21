@@ -15,7 +15,7 @@ To check out the full range of commands you can enter, visit the Wolfram Alpha w
     - Install **Flask** by running `pip install Flask`
     - Install the **Wikipedia API** by running `pip install wikipedia`
     - Download **Ngrok** [here](https://ngrok.com/)
-    - Create a **Twilio** account [here](https://www.twilio.com/try-twilio) and follow the steps to obtain a phone number
+    - Create a **Twilio** account [here](https://www.twilio.com/try-twilio) and follow the steps to obtain a phone number that you will be sending texts to
         - **Unfortunately, you will have to pay a minimum of $20 to upgrade your account to be able to use the phone number for this project**
         - Once you upgrade your account, run `pip install twilio`
     - Install the **Wolfram Alpha API** by running `pip install wolframalpha`
