@@ -12,11 +12,12 @@ To check out the full range of commands you can enter, visit the Wolfram Alpha w
 - In order to run this program, you will need to follow these steps:
 
     - Download **pip** if you haven't already, from [here](https://pip.pypa.io/en/stable/installing/)
-    - Create a free **Twilio** account [here](https://www.twilio.com/) and press “Get a Free API Key.”
-      then run `pip install twilio`
     - Install **Flask** by running `pip install Flask`
     - Install the **Wikipedia API** by running `pip install wikipedia`
     - Download **Ngrok** [here](https://ngrok.com/)
+    - Create a **Twilio** account [here](https://www.twilio.com/try-twilio) and follow the steps to obtain a phone number
+        - **Unfortunately, you will have to pay a minimum of $20 to upgrade your account to be able to use the phone number for this project**
+        - Once you upgrade your account, run `pip install twilio`
     - Install the **Wolfram Alpha API** by running `pip install wolframalpha`
     
         - Then, sign up for free API access of Wolfram Alpha [here](https://products.wolframalpha.com/api/)
