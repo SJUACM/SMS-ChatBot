@@ -58,6 +58,6 @@ To check out the full range of commands you can enter, visit the Wolfram Alpha w
 
 # Troubleshooting
 
-If you are having any issues running the code, please refer to this link or contact me. 
+If you are having any issues running the code, please refer to this link or contact faizan.ahmed18@stjohns.edu. 
     
    - https://makezine.com/projects/sms-bot/
