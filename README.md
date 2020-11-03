@@ -1,6 +1,8 @@
 # SATA-ChatBot
 Get instant answers to your questions with a chatbot powered by Python, Twilio, Wikipedia, and Wolfram Alpha!
 
+Check out the step-by-step YouTube tutorial [here](https://www.youtube.com/watch?v=hgEiYBjft8A) 
+
 **Here are some examples of what you can do with this program:**
 
 ![image](https://user-images.githubusercontent.com/43652410/96490211-84b18280-120e-11eb-9331-90d1917b1f32.png)
