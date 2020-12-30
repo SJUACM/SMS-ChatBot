@@ -14,27 +14,29 @@ To check out the full range of commands you can enter, visit the Wolfram Alpha w
 - In order to run this program, you will need to follow these steps:
 
     - Download **pip** if you haven't already, from [here](https://pip.pypa.io/en/stable/installing/)
-    - Install **Flask** by running `pip install Flask`
-    - Install the **Wikipedia API** by running `pip install wikipedia`
+        
     - Download **Ngrok** [here](https://ngrok.com/)
+    
     - Create a **Twilio** account [here](https://www.twilio.com/try-twilio) and follow the steps to obtain a phone number that you will be sending texts to
         - **Unfortunately, you will have to pay a minimum of $20 to upgrade your account to be able to use the phone number for this project**
         - Read more about sending SMS messages with Twilio [here](https://www.twilio.com/docs/sms/quickstart/python)
-        - Once you upgrade your account, run `pip install twilio`
-    - Install the **Wolfram Alpha API** by running `pip install wolframalpha`
-    
-        - Then, sign up for free API access of Wolfram Alpha [here](https://products.wolframalpha.com/api/)
+ 
+    - Sign up for free API access of **Wolfram Alpha** [here](https://products.wolframalpha.com/api/)
         - Follow the steps accordingly to obtain your AppID
     
 # How To Run
-
-   - First, download the zip file containing all the source code and unzip the folder. Then, move the folder to your desktop and rename it to **ChatBot**
+       
+   - If you do not have git installed, make sure to download it from [here](https://git-scm.com/downloads). Installing git will save you a lot of time installing files in the future
+        - Once you have git installed, run `git clone https://github.com/faizancodes/SATA-ChatBot.git` to download all the files from this repository.
+    
+   - Then, run `cd SATA-Chatbot` to navigate to the corresponding folder with all the files you just downloaded and run `pip install -r requirements.txt` to install all the necessary libraries for the program to run  
+        - If this gives you an error, run `python -m pip install -r requirements.txt` or `py -m pip install -r requirements.txt` and see if that works.
    
    - Open the `sata_chatbot.py` file and change the `app_id` variable located on line 70 to your designated Wolfram Alpha AppID.
    
 ![image](https://user-images.githubusercontent.com/43652410/96471993-f3d2ab00-11fd-11eb-8f5c-2cb4bdfcdbf3.png)
    
-   - Run `cd desktop` in terminal to navigate to your desktop directory. Then, run `cd ChatBot` to navigate to that folder and finally run `sata_chatbot.py` to execute the code.
+   - Run `sata_chatbot.py` to execute the code.
    
    - When you run the code, your terminal should look like this:
    
@@ -62,6 +64,6 @@ To check out the full range of commands you can enter, visit the Wolfram Alpha w
 
 # Troubleshooting
 
-If you are having any issues running the code, please refer to this link or contact faizan.ahmed18@stjohns.edu. 
+If you are having any issues running the code, please refer to this link or contact faizan.ahmed18@stjohns.edu 
     
    - https://makezine.com/projects/sms-bot/
