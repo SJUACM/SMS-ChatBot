@@ -30,9 +30,12 @@ To check out the full range of commands you can enter, visit the Wolfram Alpha w
        
    - Download all the files `git clone https://github.com/faizancodes/SATA-ChatBot.git`
     
-   - Then, run `cd SATA-Chatbot` to navigate to the corresponding folder with all the files you just downloaded and run `pip install -r requirements.txt` to install all the necessary libraries for the program to run  
+   - Then, run `cd SATA-Chatbot` to navigate to the corresponding folder with all the files you just downloaded 
    
-        - If this gives you an error, run `python -m pip install -r requirements.txt` or `py -m pip install -r requirements.txt` and see if that works.
+        - Run `pip install -r requirements.txt` to install all the necessary libraries for the program to run  
+   
+            - If this gives you an error, run `python -m pip install -r requirements.txt` 
+            - Or `py -m pip install -r requirements.txt` and see if that works.
    
    - Open the `sata_chatbot.py` file and change the `app_id` variable located on line 70 to your designated Wolfram Alpha AppID.
    
